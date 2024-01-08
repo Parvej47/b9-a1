@@ -1,0 +1,35 @@
+body {}
+
+header {
+    height: 600px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6) url("../styles/image/Banner\ Image.png");
+    background-repeat: no-repeat;
+    border: 16px;
+    border-radius: 16px;
+    background-blend-mode: darken;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.happy-new-year {
+    padding: 177px 530px 0px 530px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Merriweather;
+    margin-bottom: 16px;
+
+}
+
+.new-year-party-celebration {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0px 344px;
+
+}
