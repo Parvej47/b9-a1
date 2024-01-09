@@ -1,6 +1,7 @@
 body {}
 
 header {
+    width: 1320px;
     height: 600px;
     text-align: center;
     background: rgba(0, 0, 0, 0.6) url("../styles/image/Banner\ Image.png");
@@ -11,6 +12,8 @@ header {
     align-items: center;
     background-position: center;
     background-size: cover;
+    margin-left: 160px;
+
 }
 
 .happy-new-year {
@@ -77,6 +80,8 @@ header {
 
 /*poster-related style*/
 .party-poster {
+    width: 1320px;
+    height: 600px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -86,19 +91,22 @@ header {
     height: 600px;
     background-blend-mode: darken;
     background-size: cover;
+    margin-left: 160px;
 }
 
 .party-details {
     text-align: left;
-    padding: 126px 500px 140px 126px;
+    padding: 126px 120px 140px 150px;
     gap: 50px;
+    margin-bottom: 0px;
 }
 
 .party-poster-title {
+    width: 640px;
     color: #FFF;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 900;
-    line-height: 88px;
+    line-height: 85px;
     letter-spacing: 7.04px;
 }
 
@@ -108,4 +116,349 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.party-poster-join {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px 0px 60px;
+
+}
+
+.party-picture-2024 {
+    display: flex;
+    padding: 67px 300px 67px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*venue related style*/
+.Red-detail {
+    color: #F00;
+}
+
+.venue {
+    text-align: center;
+    margin-top: 120px;
+    background: rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00);
+    padding: 100px 385px 214px 385px;
+    background-size: cover;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.Red-button {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+}
+
+.venue-details {
+
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+/*offer related section*/
+
+.offer-picture {
+    width: 364.844px;
+    height: 364.844px;
+    margin-right: -900px;
+    margin-left: 60px;
+}
+
+.circle {
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+}
+
+.offer {
+    display: flex;
+    background: #FFF;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+
+}
+
+.offer-title {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500
+}
+
+.offer-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer-description {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 70px;
+}
+
+.right-2024 {
+    margin-left: 110px;
+}
+
+.offer-2024 {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 48px;
+
+    font-weight: 700;
+
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.functional {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.fun-heading {
+    color: #070211;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+}
+
+.fun-title {
+    color: #F00;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.fun-description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 1068px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 266px;
+    margin-top: 28px;
+}
+
+/*sale related section*/
+.sale {
+    background: #FFF;
+    background-size: cover;
+
+}
+
+.red-box {
+    margin-top: -10px;
+    margin-left: 140px;
+}
+
+.bedi {
+    background-position: right;
+    margin-left: 1031px;
+    margin-top: 64px;
+}
+
+.fifty {
+    margin-left: -600px;
+
+}
+
+.bedi-fifty {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.red-gift {
+    display: block;
+}
+
+.gift {
+    margin-top: -800px;
+    box-shadow: #FFF;
+}
+
+.portfolio-gift {
+    margin-left: 160px;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 24px;
+
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.aw-portfolio {
+    color: #070211;
+
+    font-size: 48px;
+
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 16px;
+
+}
+
+.gift-description {
+    margin-top: 16px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.gallery {
+    margin-left: 160px;
+}
+
+.email {
+    width: 648px;
+    height: 70px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.subscribe-btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-left: -10px;
+    border: none;
+}
+
+.main-subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-left: 160px;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.newsletter {
+    color: #070211;
+
+
+    font-size: 48px;
+
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: sans-serif;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-left: 212px;
+    margin-top: 22px;
+}
+
+.email-pic {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.column1 {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 120px;
+}
+
+.column2{
+    justify-content: space-around;
+    display: flex;
+}
+.social-text {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.social-media{
+    display: flex;
+    gap: 24px;
+    margin-left: 600px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
